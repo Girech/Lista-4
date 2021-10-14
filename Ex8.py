@@ -1,12 +1,7 @@
-bebida = input("Escolha uma bebida: C-Coca cola G-Guarana S-Sprite:")
-
-if(bebida=="C"):
-    print("A bebida escolhida foi Coca-Cola")
-elif(bebida=="G"):
-    print("A bebida escolhida foi Guarana")
-elif(bebida=="S"):
-    print("A bebida escolhida foi Sprite") 
-else:
-    print("Escolha uma alternativa valida")
- 
-
+for i in range(5):
+    palavra = str(input("Digite a frase/palavra:"))
+    invertida = palavra[::-1]
+    if(palavra == invertida):
+        print("A frase é um palíndromo")
+    else:
+        print("A frase nao é um palíndromo")

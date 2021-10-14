@@ -1,7 +1,8 @@
-sexo = input("Digite a inicial do seu sexo, F-Feminino e M-Masculino:")
-if(sexo=="F"):
-    print("F-Feminino")
-elif(sexo=="M"):
-    print("M-Masculino")
-else:
-    print("Sexo invalido")
+s = 0
+for i in range(1, 500):
+    
+    if(i%3==0 and i%2!=0):
+        s += i
+
+print(s)       
+        

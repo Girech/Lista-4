@@ -1,10 +1,14 @@
-n1 = int(input("Digite um numero:"))
-n2 = int(input("Digite um numero:"))
-operacao = input("Escolha uma operacao: + ou -:")
-
-if(operacao=="+"):
-    print("O resultado da soma é:", n1+n2)
-elif(operacao=="-"):
-    print("O resultado da subtração é:", n1+-n2)
-else:
-    print("Escolha uma operação valida")
+contador = 1
+n = {}
+elementos = []
+s = 0
+for i in range (5):
+    nv = 1
+    n[nv]= float(input("Digite o seu peso:"))
+    elementos.append(n[nv]) 
+    nv += 1
+    contador = contador+1   
+elementos.sort(reverse=True)
+print(elementos)   
+print(elementos[0])
+print(elementos[4])

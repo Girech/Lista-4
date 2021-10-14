@@ -1,11 +1,6 @@
-nome = input("Digite um nome:")
-escolha= input("Gostou do seu nome? S/N:")
-
-if(escolha=="S"):
-    print("Seu nome agora é: {}".format(nome))
-elif(escolha=="N"):
-    print("O nome {} não foi escolhido".format(nome))
-else:
-    print("Digite uma alternativa valida")
-
-    
+primeiro = int(input("Digite o primeiro numero:"))
+razao = int(input("Digite a razao:"))
+progressao = 0
+for i in range(10):
+    progressao = primeiro+(i*razao)
+    print(progressao)

@@ -1,7 +1,4 @@
-idade = int(input("Digite a sua idade:"))
-
-
-if(idade>=18):
-    print("Maior de idade")
-else:
-    print("Menor de idade")
+num = int(input("Digite um numero:"))
+for i in range(1,11):
+    tabuada = num * i
+    print("{}x{}={}".format(num,i,tabuada))

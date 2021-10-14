@@ -1,12 +1,18 @@
-sexo = input("Responda a pergunta, 2+2=?: A) 4 B) 5 C) 8 D) 40:")
+contador = 1
+n = {}
+elementos = []
+s = 0
+while contador != 7:
+    nv = 1
+    n[nv]= int(input("Digite um elemento:"))
+    elementos.append(n[nv]) 
+    nv += 1
+    contador = contador+1   
+for i in elementos:
+    if(i%2==0):
+        s += i
+print(s)
 
-if(sexo=="A"):
-    print("Correto")
-elif(sexo=="B"):
-    print("Incorreto")
-elif(sexo=="C"):
-    print("Incorreto")
-elif(sexo=="D"):
-    print("Incorreto")
-else:
-    print("Digite uma alternativa valida")
+
+
+

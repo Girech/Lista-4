@@ -1,10 +1,10 @@
-n1 = int(input("Digite um numero:"))
-n2 = int(input("Digite um numero:"))
-operacao = input("Escolha uma operacao: * ou /:")
+pessoas = {nome1 : peso1 , nome2 : peso2}
+menor = 0
+for i in range(4):
+    nome = input("Digite o seu nome:")
+    nomes.append(nome)
+    idade = int(input("Digite a sua idade:"))
+    idades.append(idade)
+    sexo = input("Digite o seu sexo: F/M")
+    sexos.append(sexo)
 
-if(operacao=="*"):
-    print("O resultado da multiplicação é:", n1*n2)
-elif(operacao=="/"):
-    print("O resultado da divisão é:", n1/n2)
-else:
-    print("Escolha uma operação valida")

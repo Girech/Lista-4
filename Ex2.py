@@ -1,7 +1,3 @@
-n1 = int(input("Digite um numero:"))
-
-
-if(n1>0):
-    print("O numero {} é positivo".format(n1))
-else:
-    print("O numero {} é negativo".format(n1))
+for i in range(1, 50):
+    if(i%2==0):
+        print(i)
